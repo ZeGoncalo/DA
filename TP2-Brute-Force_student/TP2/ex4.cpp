@@ -4,12 +4,31 @@
 #include <vector>
 
 double fractionalKnapsack(unsigned int values[], unsigned int weights[], unsigned int n, unsigned int maxWeight, double usedItems[]) {
-    float p[n];
+    float p[n], w=0, res=0;
     for (int i = 0; i < n; i++) {
-        p[i] = values[i]/weights[i];
-
+        p[i] = values[i]/(weights[i]*1.0);
     }
-    return 0.0;
+    while (w!=maxWeight) {
+        int max=0,j;
+        for (int i = 0; i < n; i++) {
+            if (p[i]>max) {
+                max=p[i];
+                j=i;
+            }
+        }
+        if (w+weights[j]<=maxWeight) {
+            w+=weights[j];
+            res+=values[j];
+            usedItems[j]=1;
+        }
+        else {
+            res+=p[j]*(maxWeight-w);
+            usedItems[j]=(maxWeight - w)/weights[j];
+            w=maxWeight;
+        }
+        p[j]=0;
+    }
+    return res;
 }
 
 /// TESTS ///

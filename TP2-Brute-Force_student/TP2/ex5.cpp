@@ -1,13 +1,69 @@
 // By: Gonçalo Leão
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    // TODO
+    int total=1,t=0;
+    for (int i=0; i<n;i++) {
+        t+=Stock[i];
+    }
+    int coins[t];
+    int coinType[t];
+    int k=0;
+    for (int i=0;i<n;i++) {
+        int m=Stock[i];
+        for (int j=0;j<m;j++) {
+            coins[k]=C[i];
+            coinType[k]=i;
+            k++;
+        }
+    }
+    for (unsigned int i=0;i<t;i++) {
+        total*=2;
+    }
+    bool found=false;
+    int bestCount=0;
+    unsigned int best[n];
+    for (int i=0;i<total;i++) {
+        int m=i,sum=0,count=0,cur[n];
+        for (int x=0;x<n;x++) {
+            cur[x] = 0;
+        }
+        for (int j=0;j<t;j++) {
+            if (m%2==1) {
+                sum+=coins[j];
+                cur[coinType[j]]++;
+                count++;
+            }
+            m/=2;
+        }
+        if (sum==T) {
+            if (!found || count<bestCount) {
+                found=true;
+                bestCount=count;
+                for (int x=0;x<n;x++)
+                    best[x]=cur[x];
+            }
+        }
+    }
+    if (!found) {
+        return false;
+    }
+    for (int i=0;i<n;i++) {
+        usedCoins[i]=best[i];
+    }
     return true;
 }
 
 bool changeMakingGR(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    // TODO
-    return true;
+    int remaining=T;
+    for (int i=n-1;i>=0;i--) {
+        unsigned int take=remaining/C[i];
+        if (take>Stock[i]) {
+            take=Stock[i];
+        }
+        usedCoins[i]=take;
+        remaining-=take*C[i];
+    }
+    return remaining==0;
 }
 
 /// TESTS ///
