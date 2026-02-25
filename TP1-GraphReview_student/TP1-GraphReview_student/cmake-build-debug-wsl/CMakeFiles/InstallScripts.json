@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jg23/DA/TP1-GraphReview_student/TP1-GraphReview_student/cmake-build-debug-wsl/cmake_install.cmake",
+		"/home/jg23/DA/TP1-GraphReview_student/TP1-GraphReview_student/cmake-build-debug-wsl/lib/googletest/cmake_install.cmake",
+		"/home/jg23/DA/TP1-GraphReview_student/TP1-GraphReview_student/cmake-build-debug-wsl/lib/googletest/googlemock/cmake_install.cmake",
+		"/home/jg23/DA/TP1-GraphReview_student/TP1-GraphReview_student/cmake-build-debug-wsl/lib/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
