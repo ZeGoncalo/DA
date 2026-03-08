@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/jgonc/DA/TP2-Brute-Force_student -B /home/jgonc/DA/TP2-Brute-Force_student/cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /home/jgonc/DA/TP2-Brute-Force_student/cmake-build-debug

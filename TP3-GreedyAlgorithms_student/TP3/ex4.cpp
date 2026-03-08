@@ -18,28 +18,40 @@ bool relax(Edge<T> *edge) { // d[u] + w(u,v) < d[v]
 
 template <class T>
 void dijkstra(Graph<T> * g, const int &origin) {
-    // Initialize the vertices
     for(auto v : g->getVertexSet()) {
         v->setDist(INF);
         v->setPath(nullptr);
     }
     auto s = g->findVertex(origin);
     s->setDist(0);
-
-   // TO DO
-
+    MutablePriorityQueue<Vertex<T>> q;
+    q.insert(s);
+    while(!q.empty()) {
+        auto v = q.extractMin();
+        for(auto e : v->getAdj()) {
+            auto w = e->getDest();
+            if(relax(e)) {
+                if (w->getDist() == e->getWeight() + v->getDist())
+                    q.insert(w);
+                else
+                    q.decreaseKey(w);
+            }
+        }
+    }
 }
 
 template <class T>
 static std::vector<T> getPath(Graph<T> * g, const int &origin, const int &dest) {
     std::vector<T> res;
     auto v = g->findVertex(dest);
-    if (v == nullptr || v->getDist() == INF) { // missing or disconnected
+    if (v == nullptr || v->getDist() == INF)
         return res;
+    while(v->getInfo() != origin) {
+        res.push_back(v->getInfo());
+        v = v->getPath()->getOrig();
     }
-
-   // TO DO
-
+    res.push_back(origin);
+    reverse(res.begin(), res.end());
     return res;
 }
 

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -32,100 +36,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee80390-c9bb-4f6c-b2a7-a42706c02ba6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TP2-Brute-Force_student.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TP2-Brute-Force_student.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-97950f5c9c66311acb7a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-05782d322676df2d8b6e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-18d21364adbb87e40262.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-9ad1a58d4644cf6543fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletest-Debug-99b894deee9f1df88cba.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletest.googlemock-Debug-b16a16e1b228824de757.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletest.googletest-Debug-7e04a902b6a6f44dcf04.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-25T22-03-31-0197.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Python3__Interpreter-Debug-86bf48c885e5e99acdbc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Python3__InterpreterMultiConfig-Debug-90400edae6369175d326.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-TP2_BruteForce_student-Debug-c09baaaeb00ccc9bfb63.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Threads__Threads-Debug-1bc6dae0f408b938b3b3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Threads__Threads-Debug-43f2a18a6fc6f76964bb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gmock-Debug-6d28d612f449fa568970.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gmock_main-Debug-8eb3b776300b7f5f03df.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gtest-Debug-fa9639fc63ef3ae95d9c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gtest_main-Debug-541676729d424d001a28.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7096c62e23c342eb06a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InstallScripts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex1.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex1.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex1.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex2.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex2.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex2.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex3.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex3.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex3.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex4.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex4.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex4.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex4.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex5.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex5.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex5.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex5.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TP2_BruteForce_student" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TP2_BruteForce_student" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex1.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex1.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex2.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex3.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex3.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex4.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex4.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex5.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/TP2/ex5.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TP2_BruteForce_student.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_main.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +165,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2ee80390-c9bb-4f6c-b2a7-a42706c02ba6" name="Changes" comment="" />
@@ -237,6 +176,7 @@
       <workItem from="1772116551053" duration="1018000" />
       <workItem from="1772202947012" duration="2000" />
       <workItem from="1772633360619" duration="38000" />
+      <workItem from="1772645001354" duration="19000" />
     </task>
     <servers />
   </component>

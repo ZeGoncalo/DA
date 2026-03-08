@@ -1,4 +1,4 @@
-# Install script for directory: /home/jgonc/DA/TP3-GreedyAlgorithms_student/lib/googletest/googletest
+# Install script for directory: /home/jg23/DA/TP3-GreedyAlgorithms_student/lib/googletest/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
@@ -46,7 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake"
-         "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
+         "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -59,36 +59,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES
-    "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/GTestConfigVersion.cmake"
-    "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/GTestConfig.cmake"
+    "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/GTestConfigVersion.cmake"
+    "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/GTestConfig.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/lib/googletest/googletest/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/lib/googletest/googletest/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgtest.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgtest_main.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gtest.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gtest.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gtest_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gtest_main.pc")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
