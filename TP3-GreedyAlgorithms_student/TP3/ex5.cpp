@@ -7,7 +7,7 @@
 template <class T>
 void testAndVisit(std::queue< Vertex<T>*> &q, Edge<T> *e, Vertex<T> *w, double residual) {
     // Check if the vertex 'w' is not visited and there is residual capacity
-    if (! w->isVisited() && residual > 0) {
+    if (!w->isVisited() && residual>0) {
         // Mark 'w' as visited, set the path through which it was reached, and enqueue it
         w->setVisited(true);
         w->setPath(e);
@@ -18,14 +18,29 @@ void testAndVisit(std::queue< Vertex<T>*> &q, Edge<T> *e, Vertex<T> *w, double r
 // Function to find an augmenting path using Breadth-First Search
 template <class T>
 bool findAugmentingPath(Graph<T> *g, Vertex<T> *s, Vertex<T> *t) {
-    // Mark all vertices as not visited
+    std::queue<Vertex<T>*> q;
     for(auto v : g->getVertexSet()) {
         v->setVisited(false);
+        v->setPath(nullptr);
     }
-
-   // TO DO
-
-    // Return true if a path to the target is found, false otherwise
+    s->setVisited(true);
+    q.push(s);
+    while(!q.empty()) {
+        auto v = q.front();
+        q.pop();
+        // forward edges
+        for(auto e : v->getAdj()) {
+            auto w = e->getDest();
+            double residual = e->getWeight() - e->getFlow();
+            testAndVisit(q, e, w, residual);
+        }
+        // reverse edges
+        for(auto e : v->getIncoming()) {
+            auto w = e->getOrig();
+            double residual = e->getFlow();
+            testAndVisit(q, e, w, residual);
+        }
+    }
     return t->isVisited();
 }
 
@@ -33,31 +48,52 @@ bool findAugmentingPath(Graph<T> *g, Vertex<T> *s, Vertex<T> *t) {
 template <class T>
 double findMinResidualAlongPath(Vertex<T> *s, Vertex<T> *t) {
     double f = INF;
-
-     // TO DO
-
-    // Return the minimum residual capacity
+    auto v=t;
+    while(v != s) {
+        auto e = v->getPath();
+        double residual;
+        if(e->getDest() == v)
+            residual = e->getWeight() - e->getFlow();
+        else
+            residual = e->getFlow();
+        f = std::min(f, residual);
+        if(e->getDest() == v)
+            v = e->getOrig();
+        else
+            v = e->getDest();
+    }
     return f;
 }
 
 // Function to augment flow along the augmenting path with the given flow value
 template <class T>
 void augmentFlowAlongPath(Vertex<T> *s, Vertex<T> *t, double f) {
-    // Traverse the augmenting path and update the flow values accordingly
- 
-   // TO DO
-
+    for(auto v = t; v != s; ) {
+        auto e = v->getPath();
+        if(e->getDest() == v)
+            e->setFlow(e->getFlow() + f);
+        else
+            e->setFlow(e->getFlow() - f);
+        if(e->getDest() == v)
+            v = e->getOrig();
+        else
+            v = e->getDest();
+    }
 }
 
 // Main function implementing the Edmonds-Karp algorithm
 template <class T>
 void edmondsKarp(Graph<T> *g, int source, int target) {
-    // Find source and target vertices in the graph
     Vertex<T>* s = g->findVertex(source);
     Vertex<T>* t = g->findVertex(target);
-
-   // TO DO
-
+    if(s == nullptr || t == nullptr) return;
+    for(auto v : g->getVertexSet())
+        for(auto e : v->getAdj())
+            e->setFlow(0);
+    while(findAugmentingPath(g, s, t)) {
+        double f = findMinResidualAlongPath(s, t);
+        augmentFlowAlongPath(s, t, f);
+    }
 }
 
 /// TESTS ///
