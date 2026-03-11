@@ -2,18 +2,45 @@
 // Created by jorge on 04/02/2025.
 //
 
+#include <unordered_map>
+
 #include "MSTTestAux.h"
 #include "../data_structures/UFDS.h"
 
 template <typename T>
 std::vector<Vertex<T> *> kruskal(Graph<T> *g) {
-     auto vertexSet = g->getVertexSet();
-
-    if (vertexSet.empty()) {
-        return vertexSet;
+    auto vertexSet = g->getVertexSet();
+    if (vertexSet.empty()) return vertexSet;
+    int n = vertexSet.size();
+    UFDS ufds(n);
+    std::unordered_map<Vertex<T>*, int> index;
+    for (int i = 0; i < n; i++) {
+        index[vertexSet[i]] = i;
     }
-
-   // TO DO
+    std::vector<Edge<T>*> edges;
+    for (auto v : vertexSet) {
+        for (auto e : v->getAdj()) {
+            if (e->getOrig()->getInfo() < e->getDest()->getInfo())
+                edges.push_back(e);
+        }
+    }
+    sort(edges.begin(), edges.end(), [](Edge<T>* a, Edge<T>* b){
+        return a->getWeight() < b->getWeight();
+    });
+    for (auto e : edges) {
+        int u = index[e->getOrig()];
+        int v = index[e->getDest()];
+        if (!ufds.isSameSet(u, v)) {
+            e->setSelected(true);
+            e->getReverse()->setSelected(true);
+            ufds.linkSets(u, v);
+        }
+    }
+    for (auto v : vertexSet) {
+        v->setVisited(false);
+        v->setPath(nullptr);
+    }
+    dfsKruskalPath(vertexSet[0]);
     return vertexSet;
 }
 

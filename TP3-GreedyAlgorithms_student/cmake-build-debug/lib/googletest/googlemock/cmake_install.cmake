@@ -1,4 +1,4 @@
-# Install script for directory: /home/jgonc/DA/TP3-GreedyAlgorithms_student/lib/googletest/googlemock
+# Install script for directory: /home/jg23/DA/TP3-GreedyAlgorithms_student/lib/googletest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,34 +37,40 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/lib/googletest/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/lib/googletest/googlemock/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgmock.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/libgmock_main.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gmock.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jgonc/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/cmake_install.cmake")
+  include("/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googletest/cmake_install.cmake")
 
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/jg23/DA/TP3-GreedyAlgorithms_student/cmake-build-debug/lib/googletest/googlemock/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
