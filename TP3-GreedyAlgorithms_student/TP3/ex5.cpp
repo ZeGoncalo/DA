@@ -52,15 +52,15 @@ double findMinResidualAlongPath(Vertex<T> *s, Vertex<T> *t) {
     while(v != s) {
         auto e = v->getPath();
         double residual;
-        if(e->getDest() == v)
+        if(e->getDest() == v) {
             residual = e->getWeight() - e->getFlow();
-        else
-            residual = e->getFlow();
-        f = std::min(f, residual);
-        if(e->getDest() == v)
             v = e->getOrig();
-        else
+        }
+        else {
+            residual = e->getFlow();
             v = e->getDest();
+        }
+        f = std::min(f, residual);
     }
     return f;
 }
@@ -70,14 +70,14 @@ template <class T>
 void augmentFlowAlongPath(Vertex<T> *s, Vertex<T> *t, double f) {
     for(auto v = t; v != s; ) {
         auto e = v->getPath();
-        if(e->getDest() == v)
+        if(e->getDest() == v) {
             e->setFlow(e->getFlow() + f);
-        else
-            e->setFlow(e->getFlow() - f);
-        if(e->getDest() == v)
             v = e->getOrig();
-        else
+        }
+        else {
+            e->setFlow(e->getFlow() - f);
             v = e->getDest();
+        }
     }
 }
 

@@ -6,9 +6,13 @@ template <class T>
 bool dfsFindAugmentingPath(Vertex<T>* v, Vertex<T>* t, double& flow) {
     if (v == t) return true;
     v->setVisited(true);
-
-     // TO DO
-
+     for (auto e:v->getAdj()) {
+         Vertex<T>* w = e->getDest();
+         if (!w->isVisited()) {
+             //if (w->getFlow()<)//TO do
+             return dfsFindAugmentingPath(w, t, flow);
+         }
+     }
     return false;
 }
 

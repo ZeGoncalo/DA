@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Projeto1" targetName="Projeto1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ac7aeed-37e5-4e56-ad43-9361ce003e79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/TP3/ex5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/TP3/ex5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/TP3/ex6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/TP3/ex6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/CMakeFiles/TP3_GreedyAlgorithms_student.dir/TP3/ex5.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/CMakeFiles/TP3_GreedyAlgorithms_student.dir/TP3/ex5.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/CMakeFiles/TP3_GreedyAlgorithms_student.dir/TP3/ex6.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/CMakeFiles/TP3_GreedyAlgorithms_student.dir/TP3/ex6.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/TP3_GreedyAlgorithms_student" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/TP3_GreedyAlgorithms_student" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-GreedyAlgorithms_student/cmake-build-debug-wsl/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="LKYogyxa" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="3.3" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3B6zykZFgezw3iF1tXciJfPw3QD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.main.cpp.executor": "Run",
+    "CMake Application.Projeto1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/jgonc/DA/Projeto1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/jgonc/Desktop/DA/Projeto1/main.cpp",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jgonc\Desktop\DA\Projeto1\data" />
+      <recent name="C:\Users\jgonc\Desktop\DA\Projeto1\data\expected_output" />
+      <recent name="C:\Users\jgonc\Desktop\DA\Projeto1\data\input" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Projeto1">
+    <configuration name="Projeto1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$ProjectFileDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projeto1" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.main.cpp" />
+      <item itemvalue="CMake Application.Projeto1" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ac7aeed-37e5-4e56-ad43-9361ce003e79" name="Changes" comment="" />
+      <created>1773824565220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773824565220</updated>
+      <workItem from="1773824566573" duration="787000" />
+      <workItem from="1773825387953" duration="29000" />
+      <workItem from="1773825490734" duration="260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>
